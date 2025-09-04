@@ -6,7 +6,7 @@
   - To achieve this, run the following command: <pre>```python -m venv .venv ```</pre>
   - You can put whatever name you want to the `venv` folder, but since the .gitignore file is ignoring `.venv` folder, I am going to use that name.
 - ### Second:
-  - Now you have the .venv directory, you need to activate the virtual environment, so any package that you already have on your machine, will not conflict with mine.
+  - Now you have the .venv directory, you need to activate the virtual environment, so any package that you already have on your machine, will not conflict with the required ones to this project.
   - to activate the virtual environment all you need to do is run the following command: <pre> ```./.venv/Scripts/activate```</pre>
 - ### Third
   - Now that you have set those things up, let's move forward to the final command
