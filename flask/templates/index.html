@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FLask Static File</title>
+</head>
+<body>
+    <h1>Hello from Flask</h1>
+    <h3>This is a static html, served by flask</h3>
+    <form action="/login" method="POST">
+        <div>
+            <label for="username">Username: <span style="color: red;">*</span></label>
+            <input id="username" type="text" name="username">
+        </div>
+        <div>
+            <label for="password">Password: <span style="color: red;">*</span></label>
+            <input id="password" type="password" name="password">
+        </div>
+        <input type="submit" value="LOGIN">
+    </form>
+</body>
+</html>

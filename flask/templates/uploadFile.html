@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/upload" method="POST" enctype=multipart/form-data>
+        <header>
+            <nav>Hello {{username}}! You can upload a picture of yours, if want to</nav>
+        </header>
+        <div>
+            <label for="userFile">file to upload: </label>
+            <input id="userFile" type="file" name="userFile">
+            <input type="text" name="username" value={{username}} hidden>
+        </div>
+        <input type="submit" value="UPLOAD PICTURE">
+    </form>
+</body>
+</html>
